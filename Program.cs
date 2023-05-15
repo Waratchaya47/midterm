@@ -49,8 +49,7 @@ class Program {
          if (userEvent == "Outbreak" || userEvent == "Vaccinate" || userEvent == "Lockdown") {
                 Console.Write("Enter the city ID: ");
                 int cityId = int.Parse(Console.ReadLine());
-               ProcessEvent(userEvent, cityId,  cityName, cityLevels);
-                 
+                
          }
     }
 }
